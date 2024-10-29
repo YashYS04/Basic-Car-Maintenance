@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "%@" : {
       "comment" : "Maintenance list item description 'Date' formatted",
       "localizations" : {
@@ -68,64 +71,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
-          }
-        }
-      }
-    },
-    "%@ on %@" : {
-      "comment" : "Maintenance list item for a vehicle on a date",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ on %2$@"
-          }
-        },
-        "fa" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ در %2$@"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ z datą %2$@"
-          }
-        }
-      }
-    },
-    "%lld %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld %2$@"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld %2$@"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld %2$@"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld %2$@"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld %2$@"
           }
         }
       }
@@ -2017,6 +1962,12 @@
         }
       }
     },
+    "Export" : {
+
+    },
+    "Export Event" : {
+      "comment" : "Label for exporting maintenance events"
+    },
     "Failed To Add Vehicle" : {
       "localizations" : {
         "be" : {
@@ -2679,6 +2630,9 @@
         }
       }
     },
+    "For: %@" : {
+      "comment" : "the vehcile name is filled in here"
+    },
     "GitHub Repo" : {
       "comment" : "Link to the Basic Car Maintenance GitHub repo.",
       "localizations" : {
@@ -2767,6 +2721,9 @@
           }
         }
       }
+    },
+    "Imperial" : {
+      "comment" : "Imperial unit system"
     },
     "It's open source and anyone can contribute to it." : {
       "comment" : "Tells the user they can contribute to the codebase.",
@@ -3149,6 +3106,9 @@
           }
         }
       }
+    },
+    "Metric" : {
+      "comment" : "Metric unit system"
     },
     "Mileage: %lld %@" : {
       "localizations" : {
@@ -3639,6 +3599,9 @@
         }
       }
     },
+    "Notes:" : {
+
+    },
     "Odometer" : {
       "localizations" : {
         "be" : {
@@ -3898,6 +3861,9 @@
       }
     },
     "Plate: %@" : {
+
+    },
+    "Preferred System" : {
 
     },
     "Preferred units" : {
@@ -4355,6 +4321,12 @@
         }
       }
     },
+    "Select a Vehicle" : {
+
+    },
+    "Select the vehicle you want to export the maintenance events for:" : {
+
+    },
     "Settings" : {
       "comment" : "Label to display settings.",
       "localizations" : {
@@ -4443,6 +4415,9 @@
           }
         }
       }
+    },
+    "Share" : {
+      "comment" : "Share the exported file in the share sheet"
     },
     "Sign Out" : {
       "localizations" : {
@@ -5201,6 +5176,9 @@
         }
       }
     },
+    "Units" : {
+      "comment" : "Label to represent the options for measurement units"
+    },
     "Update" : {
       "comment" : "Label for submit button on form to update an existing entry",
       "localizations" : {
@@ -5527,6 +5505,9 @@
           }
         }
       }
+    },
+    "Vehicle Details" : {
+      "comment" : "Label about vehicle details."
     },
     "Vehicle License Plate Number" : {
       "localizations" : {
