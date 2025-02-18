@@ -30,6 +30,7 @@ final class CarMaintenancePDFGenerator {
         self.columnWidth = (PageDimension.A4.pageWidth - leftMargin - rightMargin) / 3
     }
     
+    // swiftlint:disable:next function_body_length 
     func generatePDF() -> PDFDocument? {
         guard !events.isEmpty else { return nil }
         let pdfRenderer = UIGraphicsPDFRenderer(bounds: CGRect(origin: .zero, size: PageDimension.A4.size))

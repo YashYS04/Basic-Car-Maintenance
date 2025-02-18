@@ -115,7 +115,7 @@ struct VehicleDetailView: View {
         vin: "5YJSA1E26JF123456",
         licensePlateNumber: "ABC123"
     )
-    var viewModel = SettingsViewModel(authenticationViewModel: AuthenticationViewModel())
+    let viewModel = SettingsViewModel(authenticationViewModel: AuthenticationViewModel())
     
     VehicleDetailView(selectedVehicle: $selectedVehicle, viewModel: viewModel)
 }

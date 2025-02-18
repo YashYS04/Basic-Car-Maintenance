@@ -127,6 +127,7 @@ struct OdometerView: View {
         .analyticsView("\(Self.self)")
     }
     
+    // swiftlint:disable:next line_length
     /// Filter the readins based on the selected time range, and if there are no readings in the last 30 days, just show the last reading.
     /// - Parameter vehicle: The vehicle for these readings.
     /// - Returns: The `[OdometerReading]`s for this vehicle in the time range.

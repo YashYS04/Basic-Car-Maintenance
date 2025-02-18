@@ -14,7 +14,8 @@ struct SettingsView: View {
     @Environment(ActionService.self) var actionService
     @Environment(\.scenePhase) var scenePhase
     @Environment(\.colorScheme) var colorScheme
-   
+    @Environment(\.openURL) private var openURL
+    
     @ScaledMetric(relativeTo: .largeTitle) var iconDimension = 20.0
     
     // swiftlint:disable:next line_length
@@ -79,6 +80,21 @@ struct SettingsView: View {
                             Image(systemName: SFSymbol.ladybug)
                                 .resizable()
                                 .frame(width: iconDimension, height: iconDimension)
+                        }
+                    }
+                    
+                    if false {
+                        Button {
+                            requestAppReview()
+                        } label: {
+                            Label {
+                                Text("Rate this app", comment: "Link to rate the app.")
+                            } icon: {
+                                Image(systemName: "star.fill")
+                                    .resizable()
+                                    .frame(width: iconDimension, height: iconDimension)
+                                    .foregroundStyle(.yellow)
+                            }
                         }
                     }
                     
@@ -164,7 +180,7 @@ struct SettingsView: View {
                             }
                         }
                     }
-                
+                    
                     Button {
                         isShowingAddVehicle = true
                     } label: {
@@ -311,6 +327,15 @@ struct SettingsView: View {
                 isShowingAddVehicle = true
             }
         }
+    }
+    private func requestAppReview() {
+        let url = "https://apps.apple.com/app/idYOURAPPSTOREID?action=write-review"
+        
+        guard let writeReviewURL = URL(string: url) else {
+            fatalError("Expected a valid URL")
+        }
+        
+        openURL(writeReviewURL)
     }
 }
 
